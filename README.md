@@ -55,3 +55,7 @@ src/
   lib/
     rates.ts              récupération des taux depuis currency-api
 ```
+
+## App mobile iOS
+
+Une version iPhone (Expo / React Native) se trouve dans le dossier [`mobile/`](mobile/README.md).
