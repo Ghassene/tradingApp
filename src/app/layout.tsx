@@ -16,18 +16,15 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HELVETIA//FX — CHF · EUR · TND Forex Information & D3.js Rate Monitor",
+  title: "Taux CHF · EUR · TND",
   description:
-    "Public foreign exchange information portal showcasing live rates, D3.js financial charts, currency conversion, and triangular cross-rate analytics exclusively for CHF-EUR, EUR-TND, and CHF-TND.",
+    "Taux de change réels du franc suisse, de l'euro et du dinar tunisien : CHF/EUR, EUR/TND et CHF/TND.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html
-      lang="en"
-      className={`${plusJakarta.variable} ${jetbrainsMono.variable}`}
-    >
-      <body className="font-sans bg-[#F8FAFC] text-[#0F172A] antialiased selection:bg-blue-600 selection:text-white">
+    <html lang="fr" className={`${plusJakarta.variable} ${jetbrainsMono.variable}`}>
+      <body className="min-h-screen bg-[#0c1222] font-sans text-slate-200 antialiased selection:bg-amber-400 selection:text-slate-900">
         {children}
       </body>
     </html>
